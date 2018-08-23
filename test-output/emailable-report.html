@@ -8,11 +8,123 @@
 <body>
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
-<tr><th colspan="7">Default suite</th></tr>
-<tr><td><a href="#t0">Default test</a></td><td class="num">1</td><td class="num">0</td><td class="num">0</td><td class="num">2,877</td><td></td><td></td></tr>
+<tr><th colspan="7">Suite</th></tr>
+<tr><td><a href="#t0">V1</a></td><td class="num">10</td><td class="num">0</td><td class="num">0</td><td class="num">22,384</td><td></td><td></td></tr>
+<tr class="stripe"><td><a href="#t1">V2</a></td><td class="num">9</td><td class="num">0</td><td class="num attn">1</td><td class="num">24,652</td><td></td><td></td></tr>
+<tr><td><a href="#t2">V1_cucmber</a></td><td class="num">3</td><td class="num">0</td><td class="num">0</td><td class="num">43,729</td><td></td><td></td></tr>
+<tr class="stripe"><td><a href="#t3">V3</a></td><td class="num">11</td><td class="num">0</td><td class="num">0</td><td class="num">10,530</td><td></td><td></td></tr>
+<tr><th>Total</th><th class="num">33</th><th class="num">0</th><th class="num attn">1</th><th class="num">101,295</th><th colspan="2"></th></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Default suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Default test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">snl_service.SnlTest_v3new</td><td><a href="#m0">getTokenOAuth2</a></td><td rowspan="1">1534933186419</td><td rowspan="1">2818</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">V1 &#8212; passed</th></tr><tr class="passedeven"><td rowspan="10">snl_service.SnlTest_v1</td><td><a href="#m0">createNewPlayer</a></td><td rowspan="1">1535023511611</td><td rowspan="1">4410</td></tr><tr class="passedeven"><td><a href="#m1">deleteBoard</a></td><td rowspan="1">1535023517516</td><td rowspan="1">9360</td></tr><tr class="passedeven"><td><a href="#m2">deletePlayer</a></td><td rowspan="1">1535023516949</td><td rowspan="1">224</td></tr><tr class="passedeven"><td><a href="#m3">geBoardDetail</a></td><td rowspan="1">1535023508424</td><td rowspan="1">3182</td></tr><tr class="passedeven"><td><a href="#m4">getListOfBoard</a></td><td rowspan="1">1535023505181</td><td rowspan="1">2344</td></tr><tr class="passedeven"><td><a href="#m5">getNewBoard</a></td><td rowspan="1">1535023507531</td><td rowspan="1">889</td></tr><tr class="passedeven"><td><a href="#m6">moveOnBoard</a></td><td rowspan="1">1535023516400</td><td rowspan="1">546</td></tr><tr class="passedeven"><td><a href="#m7">resetBoard</a></td><td rowspan="1">1535023517178</td><td rowspan="1">333</td></tr><tr class="passedeven"><td><a href="#m8">updateExistingPlayerWithSameName</a></td><td rowspan="1">1535023516202</td><td rowspan="1">194</td></tr><tr class="passedeven"><td><a href="#m9">updatePlayer</a></td><td rowspan="1">1535023516025</td><td rowspan="1">174</td></tr></tbody>
+<tbody id="t1"><tr><th colspan="4">V2 &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">snl_service.SnlTest_v2</td><td><a href="#m10">deleteBoard</a></td><td rowspan="1">1535023532778</td><td rowspan="1">21176</td></tr><tr><th colspan="4">V2 &#8212; passed</th></tr><tr class="passedeven"><td rowspan="9">snl_service.SnlTest_v2</td><td><a href="#m11">createNewPlayer</a></td><td rowspan="1">1535023530811</td><td rowspan="1">736</td></tr><tr class="passedeven"><td><a href="#m12">deletePlayer</a></td><td rowspan="1">1535023532397</td><td rowspan="1">185</td></tr><tr class="passedeven"><td><a href="#m13">geBoardDetail</a></td><td rowspan="1">1535023530642</td><td rowspan="1">167</td></tr><tr class="passedeven"><td><a href="#m14">getListOfBoard</a></td><td rowspan="1">1535023529580</td><td rowspan="1">802</td></tr><tr class="passedeven"><td><a href="#m15">getNewBoard</a></td><td rowspan="1">1535023530385</td><td rowspan="1">251</td></tr><tr class="passedeven"><td><a href="#m16">moveOnBoard</a></td><td rowspan="1">1535023532203</td><td rowspan="1">191</td></tr><tr class="passedeven"><td><a href="#m17">resetBoard</a></td><td rowspan="1">1535023532584</td><td rowspan="1">191</td></tr><tr class="passedeven"><td><a href="#m18">updateExistingPlayerWithSameName</a></td><td rowspan="1">1535023532008</td><td rowspan="1">191</td></tr><tr class="passedeven"><td><a href="#m19">updatePlayer</a></td><td rowspan="1">1535023531548</td><td rowspan="1">457</td></tr></tbody>
+<tbody id="t2"><tr><th colspan="4">V1_cucmber &#8212; passed</th></tr><tr class="passedeven"><td rowspan="3">snl_service.SnlTest_v1_Cucumber</td><td><a href="#m20">addUpdatePalyer</a></td><td rowspan="1">1535023581267</td><td rowspan="1">17809</td></tr><tr class="passedeven"><td><a href="#m21">createBoard</a></td><td rowspan="1">1535023578509</td><td rowspan="1">2748</td></tr><tr class="passedeven"><td><a href="#m22">feature</a></td><td rowspan="1">1535023562749</td><td rowspan="1">15748</td></tr></tbody>
+<tbody id="t3"><tr><th colspan="4">V3 &#8212; passed</th></tr><tr class="passedeven"><td rowspan="11">snl_service.RestAssuredSnl.SnlTest_v3</td><td><a href="#m23">createNewPlayer</a></td><td rowspan="1">1535023601816</td><td rowspan="1">1024</td></tr><tr class="passedeven"><td><a href="#m24">deleteBoard</a></td><td rowspan="1">1535023609969</td><td rowspan="1">314</td></tr><tr class="passedeven"><td><a href="#m25">deletePlayer</a></td><td rowspan="1">1535023609362</td><td rowspan="1">154</td></tr><tr class="passedeven"><td><a href="#m26">geBoardDetail</a></td><td rowspan="1">1535023601652</td><td rowspan="1">162</td></tr><tr class="passedeven"><td><a href="#m27">getListOfBoard</a></td><td rowspan="1">1535023600599</td><td rowspan="1">862</td></tr><tr class="passedeven"><td><a href="#m28">getNewBoard</a></td><td rowspan="1">1535023601463</td><td rowspan="1">187</td></tr><tr class="passedeven"><td><a href="#m29">moveOnBoard</a></td><td rowspan="1">1535023609186</td><td rowspan="1">174</td></tr><tr class="passedeven"><td><a href="#m30">printhi</a></td><td rowspan="1">1535023600595</td><td rowspan="1">1</td></tr><tr class="passedeven"><td><a href="#m31">resetBoard</a></td><td rowspan="1">1535023609518</td><td rowspan="1">449</td></tr><tr class="passedeven"><td><a href="#m32">updateExistingPlayerWithSameName</a></td><td rowspan="1">1535023603009</td><td rowspan="1">6174</td></tr><tr class="passedeven"><td><a href="#m33">updatePlayer</a></td><td rowspan="1">1535023602842</td><td rowspan="1">165</td></tr></tbody>
 </table>
-<h2>Default test</h2><h3 id="m0">snl_service.SnlTest_v3new#getTokenOAuth2</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>V1</h2><h3 id="m0">snl_service.SnlTest_v1#createNewPlayer</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">snl_service.SnlTest_v1#deleteBoard</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">snl_service.SnlTest_v1#deletePlayer</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">snl_service.SnlTest_v1#geBoardDetail</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">snl_service.SnlTest_v1#getListOfBoard</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m5">snl_service.SnlTest_v1#getNewBoard</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m6">snl_service.SnlTest_v1#moveOnBoard</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m7">snl_service.SnlTest_v1#resetBoard</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m8">snl_service.SnlTest_v1#updateExistingPlayerWithSameName</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m9">snl_service.SnlTest_v1#updatePlayer</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>V2</h2><h3 id="m10">snl_service.SnlTest_v2#deleteBoard</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.net.ConnectException: Connection timed out: connect
+	at java.base/java.net.DualStackPlainSocketImpl.connect0(Native Method)
+	at java.base/java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:79)
+	at java.base/java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:400)
+	at java.base/java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:243)
+	at java.base/java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:225)
+	at java.base/java.net.PlainSocketImpl.connect(PlainSocketImpl.java:148)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:402)
+	at java.base/java.net.Socket.connect(Socket.java:591)
+	at org.apache.http.conn.scheme.PlainSocketFactory.connectSocket(PlainSocketFactory.java:121)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:180)
+	at org.apache.http.impl.conn.ManagedClientConnectionImpl.open(ManagedClientConnectionImpl.java:326)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:610)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:445)
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:835)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:56)
+	at org.apache.http.client.HttpClient$execute$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.apache.http.client.HttpClient$execute$0.call(Unknown Source)
+	at io.restassured.internal.RequestSpecificationImpl$RestAssuredHttpBuilder.doRequest(RequestSpecificationImpl.groovy:2129)
+	at io.restassured.internal.http.HTTPBuilder.doRequest(HTTPBuilder.java:494)
+	at io.restassured.internal.http.HTTPBuilder.request(HTTPBuilder.java:451)
+	at io.restassured.internal.http.HTTPBuilder$request$2.call(Unknown Source)
+	at io.restassured.internal.RequestSpecificationImpl.sendHttpRequest(RequestSpecificationImpl.groovy:1532)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:325)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1212)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1021)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:812)
+	at io.restassured.internal.RequestSpecificationImpl.invokeMethod(RequestSpecificationImpl.groovy)
+	at org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.call(PogoInterceptableSite.java:48)
+	at org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.callCurrent(PogoInterceptableSite.java:58)
+	at io.restassured.internal.RequestSpecificationImpl.sendRequest(RequestSpecificationImpl.groovy:1290)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:325)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1212)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1021)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:812)
+	at io.restassured.internal.RequestSpecificationImpl.invokeMethod(RequestSpecificationImpl.groovy)
+	at org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.call(PogoInterceptableSite.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:149)
+	at io.restassured.internal.filter.SendRequestFilter.filter(SendRequestFilter.groovy:30)
+	at io.restassured.filter.Filter$filter$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at io.restassured.filter.Filter$filter.call(Unknown Source)
+	at io.restassured.internal.filter.FilterContextImpl.next(FilterContextImpl.groovy:72)
+	at io.restassured.filter.time.TimingFilter.filter(TimingFilter.java:56)
+	at io.restassured.filter.Filter$filter.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at io.restassured.filter.Filter$filter$0.call(Unknown Source)
+	at io.restassured.internal.filter.FilterContextImpl.next(FilterContextImpl.groovy:72)
+	at io.restassured.filter.FilterContext$next.call(Unknown Source)
+	at io.restassured.internal.RequestSpecificationImpl.applyPathParamsAndSendRequest(RequestSpecificationImpl.groovy:1732)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:325)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1212)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1021)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:812)
+	at io.restassured.internal.RequestSpecificationImpl.invokeMethod(RequestSpecificationImpl.groovy)
+	at org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.call(PogoInterceptableSite.java:48)
+	at org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.callCurrent(PogoInterceptableSite.java:58)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:182)
+	at io.restassured.internal.RequestSpecificationImpl.applyPathParamsAndSendRequest(RequestSpecificationImpl.groovy:1738)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:325)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1212)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1021)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:812)
+	at io.restassured.internal.RequestSpecificationImpl.invokeMethod(RequestSpecificationImpl.groovy)
+	at org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.call(PogoInterceptableSite.java:48)
+	at org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.callCurrent(PogoInterceptableSite.java:58)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:182)
+	at io.restassured.internal.RequestSpecificationImpl.get(RequestSpecificationImpl.groovy:170)
+	at io.restassured.internal.RequestSpecificationImpl.get(RequestSpecificationImpl.groovy)
+	at snl_service.SnlTest_v2.deleteBoard(SnlTest_v2.java:187)
+... Removed 41 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m11">snl_service.SnlTest_v2#createNewPlayer</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m12">snl_service.SnlTest_v2#deletePlayer</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m13">snl_service.SnlTest_v2#geBoardDetail</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m14">snl_service.SnlTest_v2#getListOfBoard</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m15">snl_service.SnlTest_v2#getNewBoard</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m16">snl_service.SnlTest_v2#moveOnBoard</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m17">snl_service.SnlTest_v2#resetBoard</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m18">snl_service.SnlTest_v2#updateExistingPlayerWithSameName</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m19">snl_service.SnlTest_v2#updatePlayer</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>V1_cucmber</h2><h3 id="m20">snl_service.SnlTest_v1_Cucumber#addUpdatePalyer</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>Snake Ladder Game for V1 REST API</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m21">snl_service.SnlTest_v1_Cucumber#createBoard</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>Snake Ladder Game for V1 REST API</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m22">snl_service.SnlTest_v1_Cucumber#feature</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>Snake Ladder Game for V1 REST API</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>V3</h2><h3 id="m23">snl_service.RestAssuredSnl.SnlTest_v3#createNewPlayer</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m24">snl_service.RestAssuredSnl.SnlTest_v3#deleteBoard</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m25">snl_service.RestAssuredSnl.SnlTest_v3#deletePlayer</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m26">snl_service.RestAssuredSnl.SnlTest_v3#geBoardDetail</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m27">snl_service.RestAssuredSnl.SnlTest_v3#getListOfBoard</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m28">snl_service.RestAssuredSnl.SnlTest_v3#getNewBoard</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m29">snl_service.RestAssuredSnl.SnlTest_v3#moveOnBoard</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m30">snl_service.RestAssuredSnl.SnlTest_v3#printhi</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m31">snl_service.RestAssuredSnl.SnlTest_v3#resetBoard</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m32">snl_service.RestAssuredSnl.SnlTest_v3#updateExistingPlayerWithSameName</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m33">snl_service.RestAssuredSnl.SnlTest_v3#updatePlayer</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>

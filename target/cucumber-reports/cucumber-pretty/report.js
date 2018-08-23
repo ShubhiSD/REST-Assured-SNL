@@ -38,28 +38,28 @@ formatter.match({
   "location": "StepDefinitions.setBaseUri()"
 });
 formatter.result({
-  "duration": 2865733,
+  "duration": 4248092,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDefinitions.getListOfBoard()"
 });
 formatter.result({
-  "duration": 1075070874,
+  "duration": 640930885,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDefinitions.getNewBoard()"
 });
 formatter.result({
-  "duration": 290355794,
+  "duration": 191762677,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDefinitions.scenario1Sucessful()"
 });
 formatter.result({
-  "duration": 119383,
+  "duration": 77248,
   "status": "passed"
 });
 formatter.scenario({
@@ -94,14 +94,14 @@ formatter.match({
   "location": "StepDefinitions.geBoardDetail()"
 });
 formatter.result({
-  "duration": 222040597,
+  "duration": 156995739,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDefinitions.createNewPlayer()"
 });
 formatter.result({
-  "duration": 1326749799,
+  "duration": 1231505891,
   "status": "passed"
 });
 formatter.match({
@@ -118,14 +118,14 @@ formatter.match({
   "location": "StepDefinitions.updatePlayer(int,String)"
 });
 formatter.result({
-  "duration": 266248520,
+  "duration": 463998716,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDefinitions.playerUpdateSuccess()"
 });
 formatter.result({
-  "duration": 95615,
+  "duration": 223641,
   "status": "passed"
 });
 formatter.scenario({
@@ -414,28 +414,28 @@ formatter.match({
   "location": "StepDefinitions.setBaseUri()"
 });
 formatter.result({
-  "duration": 54020,
+  "duration": 47537,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDefinitions.getListOfBoard()"
 });
 formatter.result({
-  "duration": 899723636,
+  "duration": 3982182214,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDefinitions.getNewBoard()"
 });
 formatter.result({
-  "duration": 288780585,
+  "duration": 489182599,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDefinitions.scenario1Sucessful()"
 });
 formatter.result({
-  "duration": 90212,
+  "duration": 72926,
   "status": "passed"
 });
 formatter.scenario({
@@ -470,14 +470,14 @@ formatter.match({
   "location": "StepDefinitions.geBoardDetail()"
 });
 formatter.result({
-  "duration": 230560010,
+  "duration": 150409684,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDefinitions.createNewPlayer()"
 });
 formatter.result({
-  "duration": 1424922104,
+  "duration": 12766960497,
   "status": "passed"
 });
 formatter.match({
@@ -494,14 +494,14 @@ formatter.match({
   "location": "StepDefinitions.updatePlayer(int,String)"
 });
 formatter.result({
-  "duration": 259328625,
+  "duration": 357156825,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDefinitions.playerUpdateSuccess()"
 });
 formatter.result({
-  "duration": 93454,
+  "duration": 195550,
   "status": "passed"
 });
 formatter.scenario({

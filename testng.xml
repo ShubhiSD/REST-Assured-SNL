@@ -16,4 +16,9 @@
       <class name="snl_service.SnlTest_v1_Cucumber"/>
     </classes>
   </test >
+   <test name="V3">
+   <classes>
+      <class name="snl_service.RestAssuredSnl.SnlTest_v3"/>
+    </classes>
+  </test >
 </suite> <!-- Suite -->

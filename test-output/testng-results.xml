@@ -1,17 +1,326 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="34" passed="33" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2018-08-22T10:19:46Z" name="Default suite" finished-at="2018-08-22T10:19:49Z" duration-ms="2877">
+  <suite started-at="2018-08-23T11:25:04Z" name="Suite" finished-at="2018-08-23T11:26:50Z" duration-ms="105789">
     <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:snl_service.SnlTest_v1_Cucumber@1da2cb77]" name="feature" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
     </groups>
-    <test started-at="2018-08-22T10:19:46Z" name="Default test" finished-at="2018-08-22T10:19:49Z" duration-ms="2877">
-      <class name="snl_service.SnlTest_v3new">
-        <test-method signature="getTokenOAuth2()[pri:0, instance:snl_service.SnlTest_v3new@e7edb54]" started-at="2018-08-22T10:19:46Z" name="getTokenOAuth2" finished-at="2018-08-22T10:19:49Z" duration-ms="2818" status="PASS">
+    <test started-at="2018-08-23T11:25:04Z" name="V1" finished-at="2018-08-23T11:25:26Z" duration-ms="22384">
+      <class name="snl_service.SnlTest_v1">
+        <test-method is-config="true" signature="setBaseUri()[pri:0, instance:snl_service.SnlTest_v1@27ff5d15]" started-at="2018-08-23T11:25:04Z" name="setBaseUri" finished-at="2018-08-23T11:25:05Z" duration-ms="663" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- getTokenOAuth2 -->
-      </class> <!-- snl_service.SnlTest_v3new -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+        </test-method> <!-- setBaseUri -->
+        <test-method signature="getListOfBoard()[pri:1, instance:snl_service.SnlTest_v1@27ff5d15]" started-at="2018-08-23T11:25:05Z" name="getListOfBoard" finished-at="2018-08-23T11:25:07Z" duration-ms="2344" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getListOfBoard -->
+        <test-method signature="getNewBoard()[pri:2, instance:snl_service.SnlTest_v1@27ff5d15]" started-at="2018-08-23T11:25:07Z" name="getNewBoard" finished-at="2018-08-23T11:25:08Z" duration-ms="889" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getNewBoard -->
+        <test-method signature="geBoardDetail()[pri:3, instance:snl_service.SnlTest_v1@27ff5d15]" started-at="2018-08-23T11:25:08Z" name="geBoardDetail" finished-at="2018-08-23T11:25:11Z" duration-ms="3182" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- geBoardDetail -->
+        <test-method signature="createNewPlayer()[pri:4, instance:snl_service.SnlTest_v1@27ff5d15]" started-at="2018-08-23T11:25:11Z" name="createNewPlayer" finished-at="2018-08-23T11:25:16Z" duration-ms="4410" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createNewPlayer -->
+        <test-method signature="updatePlayer()[pri:5, instance:snl_service.SnlTest_v1@27ff5d15]" started-at="2018-08-23T11:25:16Z" name="updatePlayer" finished-at="2018-08-23T11:25:16Z" duration-ms="174" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updatePlayer -->
+        <test-method signature="updateExistingPlayerWithSameName()[pri:6, instance:snl_service.SnlTest_v1@27ff5d15]" started-at="2018-08-23T11:25:16Z" name="updateExistingPlayerWithSameName" finished-at="2018-08-23T11:25:16Z" duration-ms="194" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateExistingPlayerWithSameName -->
+        <test-method signature="moveOnBoard()[pri:7, instance:snl_service.SnlTest_v1@27ff5d15]" started-at="2018-08-23T11:25:16Z" name="moveOnBoard" finished-at="2018-08-23T11:25:16Z" duration-ms="546" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- moveOnBoard -->
+        <test-method signature="deletePlayer()[pri:8, instance:snl_service.SnlTest_v1@27ff5d15]" started-at="2018-08-23T11:25:16Z" name="deletePlayer" finished-at="2018-08-23T11:25:17Z" duration-ms="224" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deletePlayer -->
+        <test-method signature="resetBoard()[pri:9, instance:snl_service.SnlTest_v1@27ff5d15]" started-at="2018-08-23T11:25:17Z" name="resetBoard" finished-at="2018-08-23T11:25:17Z" duration-ms="333" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- resetBoard -->
+        <test-method signature="deleteBoard()[pri:10, instance:snl_service.SnlTest_v1@27ff5d15]" started-at="2018-08-23T11:25:17Z" name="deleteBoard" finished-at="2018-08-23T11:25:26Z" duration-ms="9360" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteBoard -->
+      </class> <!-- snl_service.SnlTest_v1 -->
+    </test> <!-- V1 -->
+    <test started-at="2018-08-23T11:25:29Z" name="V2" finished-at="2018-08-23T11:25:54Z" duration-ms="24652">
+      <class name="snl_service.SnlTest_v2">
+        <test-method is-config="true" signature="setBaseUri()[pri:0, instance:snl_service.SnlTest_v2@3fb1549b]" started-at="2018-08-23T11:25:29Z" name="setBaseUri" finished-at="2018-08-23T11:25:29Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setBaseUri -->
+        <test-method signature="getListOfBoard()[pri:1, instance:snl_service.SnlTest_v2@3fb1549b]" started-at="2018-08-23T11:25:29Z" name="getListOfBoard" finished-at="2018-08-23T11:25:30Z" duration-ms="802" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getListOfBoard -->
+        <test-method signature="getNewBoard()[pri:2, instance:snl_service.SnlTest_v2@3fb1549b]" started-at="2018-08-23T11:25:30Z" name="getNewBoard" finished-at="2018-08-23T11:25:30Z" duration-ms="251" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getNewBoard -->
+        <test-method signature="geBoardDetail()[pri:3, instance:snl_service.SnlTest_v2@3fb1549b]" started-at="2018-08-23T11:25:30Z" name="geBoardDetail" finished-at="2018-08-23T11:25:30Z" duration-ms="167" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- geBoardDetail -->
+        <test-method signature="createNewPlayer()[pri:4, instance:snl_service.SnlTest_v2@3fb1549b]" started-at="2018-08-23T11:25:30Z" name="createNewPlayer" finished-at="2018-08-23T11:25:31Z" duration-ms="736" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createNewPlayer -->
+        <test-method signature="updatePlayer()[pri:5, instance:snl_service.SnlTest_v2@3fb1549b]" started-at="2018-08-23T11:25:31Z" name="updatePlayer" finished-at="2018-08-23T11:25:32Z" duration-ms="457" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updatePlayer -->
+        <test-method signature="updateExistingPlayerWithSameName()[pri:6, instance:snl_service.SnlTest_v2@3fb1549b]" started-at="2018-08-23T11:25:32Z" name="updateExistingPlayerWithSameName" finished-at="2018-08-23T11:25:32Z" duration-ms="191" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateExistingPlayerWithSameName -->
+        <test-method signature="moveOnBoard()[pri:7, instance:snl_service.SnlTest_v2@3fb1549b]" started-at="2018-08-23T11:25:32Z" name="moveOnBoard" finished-at="2018-08-23T11:25:32Z" duration-ms="191" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- moveOnBoard -->
+        <test-method signature="deletePlayer()[pri:8, instance:snl_service.SnlTest_v2@3fb1549b]" started-at="2018-08-23T11:25:32Z" name="deletePlayer" finished-at="2018-08-23T11:25:32Z" duration-ms="185" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deletePlayer -->
+        <test-method signature="resetBoard()[pri:9, instance:snl_service.SnlTest_v2@3fb1549b]" started-at="2018-08-23T11:25:32Z" name="resetBoard" finished-at="2018-08-23T11:25:32Z" duration-ms="191" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- resetBoard -->
+        <test-method signature="deleteBoard()[pri:10, instance:snl_service.SnlTest_v2@3fb1549b]" started-at="2018-08-23T11:25:32Z" name="deleteBoard" finished-at="2018-08-23T11:25:53Z" duration-ms="21176" status="FAIL">
+          <exception class="java.net.ConnectException">
+            <message>
+              <![CDATA[Connection timed out: connect]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.net.ConnectException: Connection timed out: connect
+at java.base/java.net.DualStackPlainSocketImpl.connect0(Native Method)
+at java.base/java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:79)
+at java.base/java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:400)
+at java.base/java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:243)
+at java.base/java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:225)
+at java.base/java.net.PlainSocketImpl.connect(PlainSocketImpl.java:148)
+at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:402)
+at java.base/java.net.Socket.connect(Socket.java:591)
+at org.apache.http.conn.scheme.PlainSocketFactory.connectSocket(PlainSocketFactory.java:121)
+at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:180)
+at org.apache.http.impl.conn.ManagedClientConnectionImpl.open(ManagedClientConnectionImpl.java:326)
+at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:610)
+at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:445)
+at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:835)
+at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:56)
+at org.apache.http.client.HttpClient$execute$0.call(Unknown Source)
+at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+at org.apache.http.client.HttpClient$execute$0.call(Unknown Source)
+at io.restassured.internal.RequestSpecificationImpl$RestAssuredHttpBuilder.doRequest(RequestSpecificationImpl.groovy:2129)
+at io.restassured.internal.http.HTTPBuilder.doRequest(HTTPBuilder.java:494)
+at io.restassured.internal.http.HTTPBuilder.request(HTTPBuilder.java:451)
+at io.restassured.internal.http.HTTPBuilder$request$2.call(Unknown Source)
+at io.restassured.internal.RequestSpecificationImpl.sendHttpRequest(RequestSpecificationImpl.groovy:1532)
+at jdk.internal.reflect.GeneratedMethodAccessor130.invoke(Unknown Source)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:93)
+at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:325)
+at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1212)
+at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1021)
+at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:812)
+at io.restassured.internal.RequestSpecificationImpl.invokeMethod(RequestSpecificationImpl.groovy)
+at org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.call(PogoInterceptableSite.java:48)
+at org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.callCurrent(PogoInterceptableSite.java:58)
+at io.restassured.internal.RequestSpecificationImpl.sendRequest(RequestSpecificationImpl.groovy:1290)
+at jdk.internal.reflect.GeneratedMethodAccessor82.invoke(Unknown Source)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:93)
+at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:325)
+at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1212)
+at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1021)
+at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:812)
+at io.restassured.internal.RequestSpecificationImpl.invokeMethod(RequestSpecificationImpl.groovy)
+at org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.call(PogoInterceptableSite.java:48)
+at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:149)
+at io.restassured.internal.filter.SendRequestFilter.filter(SendRequestFilter.groovy:30)
+at io.restassured.filter.Filter$filter$0.call(Unknown Source)
+at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+at io.restassured.filter.Filter$filter.call(Unknown Source)
+at io.restassured.internal.filter.FilterContextImpl.next(FilterContextImpl.groovy:72)
+at io.restassured.filter.time.TimingFilter.filter(TimingFilter.java:56)
+at io.restassured.filter.Filter$filter.call(Unknown Source)
+at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+at io.restassured.filter.Filter$filter$0.call(Unknown Source)
+at io.restassured.internal.filter.FilterContextImpl.next(FilterContextImpl.groovy:72)
+at io.restassured.filter.FilterContext$next.call(Unknown Source)
+at io.restassured.internal.RequestSpecificationImpl.applyPathParamsAndSendRequest(RequestSpecificationImpl.groovy:1732)
+at jdk.internal.reflect.GeneratedMethodAccessor77.invoke(Unknown Source)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:93)
+at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:325)
+at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1212)
+at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1021)
+at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:812)
+at io.restassured.internal.RequestSpecificationImpl.invokeMethod(RequestSpecificationImpl.groovy)
+at org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.call(PogoInterceptableSite.java:48)
+at org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.callCurrent(PogoInterceptableSite.java:58)
+at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:182)
+at io.restassured.internal.RequestSpecificationImpl.applyPathParamsAndSendRequest(RequestSpecificationImpl.groovy:1738)
+at jdk.internal.reflect.GeneratedMethodAccessor76.invoke(Unknown Source)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:93)
+at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:325)
+at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1212)
+at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1021)
+at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:812)
+at io.restassured.internal.RequestSpecificationImpl.invokeMethod(RequestSpecificationImpl.groovy)
+at org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.call(PogoInterceptableSite.java:48)
+at org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.callCurrent(PogoInterceptableSite.java:58)
+at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:182)
+at io.restassured.internal.RequestSpecificationImpl.get(RequestSpecificationImpl.groovy:170)
+at io.restassured.internal.RequestSpecificationImpl.get(RequestSpecificationImpl.groovy)
+at snl_service.SnlTest_v2.deleteBoard(SnlTest_v2.java:187)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.net.ConnectException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteBoard -->
+      </class> <!-- snl_service.SnlTest_v2 -->
+    </test> <!-- V2 -->
+    <test started-at="2018-08-23T11:25:55Z" name="V1_cucmber" finished-at="2018-08-23T11:26:39Z" duration-ms="43729">
+      <class name="snl_service.SnlTest_v1_Cucumber">
+        <test-method is-config="true" signature="setUpClass()[pri:0, instance:snl_service.SnlTest_v1_Cucumber@1da2cb77]" started-at="2018-08-23T11:25:55Z" name="setUpClass" finished-at="2018-08-23T11:26:02Z" duration-ms="6708" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method is-config="true" signature="setBaseUri()[pri:0, instance:snl_service.SnlTest_v1_Cucumber@1da2cb77]" started-at="2018-08-23T11:26:02Z" name="setBaseUri" finished-at="2018-08-23T11:26:02Z" duration-ms="28" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setBaseUri -->
+        <test-method signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:snl_service.SnlTest_v1_Cucumber@1da2cb77]" started-at="2018-08-23T11:26:02Z" name="feature" description="Runs Cucumber Feature" data-provider="features" finished-at="2018-08-23T11:26:18Z" duration-ms="15748" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Snake Ladder Game for V1 REST API]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method signature="createBoard(cucumber.api.testng.CucumberFeatureWrapper)[pri:1, instance:snl_service.SnlTest_v1_Cucumber@1da2cb77]" started-at="2018-08-23T11:26:18Z" name="createBoard" description="New Board creation" data-provider="features" finished-at="2018-08-23T11:26:21Z" duration-ms="2748" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Snake Ladder Game for V1 REST API]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createBoard -->
+        <test-method signature="addUpdatePalyer(cucumber.api.testng.CucumberFeatureWrapper)[pri:2, instance:snl_service.SnlTest_v1_Cucumber@1da2cb77]" started-at="2018-08-23T11:26:21Z" name="addUpdatePalyer" description="Creation new Players and then update newly created player" data-provider="features" finished-at="2018-08-23T11:26:39Z" duration-ms="17809" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Snake Ladder Game for V1 REST API]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addUpdatePalyer -->
+      </class> <!-- snl_service.SnlTest_v1_Cucumber -->
+    </test> <!-- V1_cucmber -->
+    <test started-at="2018-08-23T11:26:39Z" name="V3" finished-at="2018-08-23T11:26:50Z" duration-ms="10530">
+      <class name="snl_service.RestAssuredSnl.SnlTest_v3">
+        <test-method is-config="true" signature="getToken()[pri:0, instance:snl_service.RestAssuredSnl.SnlTest_v3@1af2d44a]" started-at="2018-08-23T11:26:39Z" name="getToken" finished-at="2018-08-23T11:26:40Z" duration-ms="839" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getToken -->
+        <test-method signature="printhi()[pri:0, instance:snl_service.RestAssuredSnl.SnlTest_v3@1af2d44a]" started-at="2018-08-23T11:26:40Z" name="printhi" finished-at="2018-08-23T11:26:40Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- printhi -->
+        <test-method signature="getListOfBoard()[pri:1, instance:snl_service.RestAssuredSnl.SnlTest_v3@1af2d44a]" started-at="2018-08-23T11:26:40Z" name="getListOfBoard" finished-at="2018-08-23T11:26:41Z" duration-ms="862" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getListOfBoard -->
+        <test-method signature="getNewBoard()[pri:2, instance:snl_service.RestAssuredSnl.SnlTest_v3@1af2d44a]" started-at="2018-08-23T11:26:41Z" name="getNewBoard" finished-at="2018-08-23T11:26:41Z" duration-ms="187" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getNewBoard -->
+        <test-method signature="geBoardDetail()[pri:3, instance:snl_service.RestAssuredSnl.SnlTest_v3@1af2d44a]" started-at="2018-08-23T11:26:41Z" name="geBoardDetail" finished-at="2018-08-23T11:26:41Z" duration-ms="162" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- geBoardDetail -->
+        <test-method signature="createNewPlayer()[pri:4, instance:snl_service.RestAssuredSnl.SnlTest_v3@1af2d44a]" started-at="2018-08-23T11:26:41Z" name="createNewPlayer" finished-at="2018-08-23T11:26:42Z" duration-ms="1024" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createNewPlayer -->
+        <test-method signature="updatePlayer()[pri:5, instance:snl_service.RestAssuredSnl.SnlTest_v3@1af2d44a]" started-at="2018-08-23T11:26:42Z" name="updatePlayer" finished-at="2018-08-23T11:26:43Z" duration-ms="165" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updatePlayer -->
+        <test-method signature="updateExistingPlayerWithSameName()[pri:6, instance:snl_service.RestAssuredSnl.SnlTest_v3@1af2d44a]" started-at="2018-08-23T11:26:43Z" name="updateExistingPlayerWithSameName" finished-at="2018-08-23T11:26:49Z" duration-ms="6174" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateExistingPlayerWithSameName -->
+        <test-method signature="moveOnBoard()[pri:7, instance:snl_service.RestAssuredSnl.SnlTest_v3@1af2d44a]" started-at="2018-08-23T11:26:49Z" name="moveOnBoard" finished-at="2018-08-23T11:26:49Z" duration-ms="174" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- moveOnBoard -->
+        <test-method signature="deletePlayer()[pri:8, instance:snl_service.RestAssuredSnl.SnlTest_v3@1af2d44a]" started-at="2018-08-23T11:26:49Z" name="deletePlayer" finished-at="2018-08-23T11:26:49Z" duration-ms="154" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deletePlayer -->
+        <test-method signature="resetBoard()[pri:9, instance:snl_service.RestAssuredSnl.SnlTest_v3@1af2d44a]" started-at="2018-08-23T11:26:49Z" name="resetBoard" finished-at="2018-08-23T11:26:49Z" duration-ms="449" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- resetBoard -->
+        <test-method signature="deleteBoard()[pri:10, instance:snl_service.RestAssuredSnl.SnlTest_v3@1af2d44a]" started-at="2018-08-23T11:26:49Z" name="deleteBoard" finished-at="2018-08-23T11:26:50Z" duration-ms="314" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteBoard -->
+      </class> <!-- snl_service.RestAssuredSnl.SnlTest_v3 -->
+    </test> <!-- V3 -->
+  </suite> <!-- Suite -->
 </testng-results>

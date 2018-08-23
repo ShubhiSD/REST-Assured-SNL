@@ -3,15 +3,12 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="snl_service.RestAssuredSnl.SnlTest_v1_Cucumber">
+      <class name="snl_service.RestAssuredSnl.SnlTest_v3">
         <methods>
-          <include name="setUpClass"/>
-          <include name="createBoard" invocation-numbers="0"/>
-          <include name="feature" invocation-numbers="0"/>
-          <include name="setBaseUri"/>
-          <include name="addUpdatePalyer" invocation-numbers="0"/>
+          <include name="deleteBoard"/>
+          <include name="getToken"/>
         </methods>
-      </class> <!-- snl_service.RestAssuredSnl.SnlTest_v1_Cucumber -->
+      </class> <!-- snl_service.RestAssuredSnl.SnlTest_v3 -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
