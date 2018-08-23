@@ -1,0 +1,13 @@
+JSONObject json = new JSONObject(yourdata);
+String statistics = json.getString("statistics");
+JSONObject name1 = json.getJSONObject("John");
+String ageJohn = name1.getString("Age");
+for getting those items dynamic
+
+JSONObject json = new JSONObject(yourdata);
+String statistics = json.getString("statistics");
+
+for(Iteraor key=json.keys();key.hasNext();) {
+    JSONObject name = json.get(key.next());
+     //now name contains the firstname, and so on... 
+}
